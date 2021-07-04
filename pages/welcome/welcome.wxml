@@ -1,0 +1,8 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="container">
+  <text class="motto">MAGARTS</text>
+  <text class="motto">Intelligent control of magnetic fluid</text>
+  <view class="button">
+    <text class="button-text">即刻体验</text>
+  </view>  
+</view>

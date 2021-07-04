@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/market/market",
+    "pages/mine/mine",
+    "pages/amuse/amuse",
+    "pages/order/order",
+    "pages/collection/collection",
+    "pages/display/display",
+    "pages/faceamuse/faceamuse",
+    "pages/musicamuse/musicamuse"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "魅声科技",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#888",
+    "selectedColor": "#89bdf7",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home_active.png"
+      },
+      {
+        "pagePath": "pages/market/market",
+        "text": "商城",
+        "iconPath": "image/market.png",
+        "selectedIconPath": "image/market_active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "image/mine.png",
+        "selectedIconPath": "image/mine_active.png"
+      }
+    ]
+  },
+"style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
